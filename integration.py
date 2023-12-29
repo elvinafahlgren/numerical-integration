@@ -10,7 +10,7 @@ def integration():
         dx = X[1] - X[0]
         integral_sum = np.sum(np.abs(np.sin(X)) * dx)
 
-        return integral_sum
+        return integral_sum 
 
     interval_lower = 0.0
     interval_upper = np.pi
